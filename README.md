@@ -1,0 +1,2 @@
+# vicuna_api_parameters
+基于vicuna微调的接口参数自动生成模型
