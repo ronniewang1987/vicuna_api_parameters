@@ -25,7 +25,7 @@ model = PeftModel.from_pretrained(model, "ronniewy/vicuna_api_parameters")
 ```
 
 ### 方式二（推荐）
-使用本仓库的启动文件`cli.py`（依赖fschat项目"pip install fschat"）：
+使用本仓库的启动文件`cli.py`（单独下载或者拷贝cli.py文件即可，依赖fschat项目"pip install fschat"）：
 ```shell
 python cli.py --model-path ronniewy/vicuna_api_parameters
 ```
